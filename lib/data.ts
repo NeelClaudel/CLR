@@ -39,67 +39,67 @@ export const links = [
 export const experiencesData = [
   {
     title: "Principe de base",
-    location: "",
+    location: "1",
     description:
       "Les pieds possèdent des zones qui correspondent à toutes les parties, organes et systèmes du corps. Ces zones sont appelées points réflexes. L'idée est que, en stimulant un point réflexe sur le pied, on peut influencer l'organe ou la partie du corps correspondante.",
-    icon: React.createElement(LuTrees, {}), // LuGraduationCap
+    icon: React.createElement(LuTrees), // LuGraduationCap
     date: "",
   },
 
   {
     title: "Cartographie des pieds",
-    location: "",
+    location: "2",
     description:
       "Les praticiens de la réflexologie utilisent une carte des pieds qui montre où chaque point réflexe est situé. Par exemple, la pointe des orteils peut correspondre à la tête, tandis qu'une zone près de la cheville peut correspondre aux organes reproducteurs. Cette cartographie n'est pas littérale, mais est basée sur des concepts énergétiques et holistiques.",
-    icon: React.createElement(LuTrees, {}),
+    icon: React.createElement(LuTrees),
     date: "",
   },
   {
     title: "Technique de massage",
-    location: "",
+    location: "3",
     description:
       "La réflexologie n'est pas simplement un massage des pieds ; elle utilise des techniques spécifiques pour appliquer une pression sur les points réflexes. Les outils couramment utilisés sont les pouces, les doigts et parfois de petits instruments pour appliquer une pression précise.",
-    icon: React.createElement(LuTrees, {}),
+    icon: React.createElement(LuTrees),
     date: "",
   },
   {
     title: "Effets recherchés",
-    location: "At Home, FR",
+    location: "4",
     description:
       "Le but de la stimulation est de libérer les blocages énergétiques, de favoriser la circulation, d'aider à l'élimination des toxines et de soutenir le processus d'auto-guérison du corps. Les bénéfices immédiats souvent rapportés comprennent la relaxation, la réduction du stress et une sensation générale de bien-être.",
-    icon: React.createElement(LuTrees, {}),
-    date: "Summer 2023 to Present",
+    icon: React.createElement(LuTrees),
+    date: "",
   },
   {
     title: "Approche holistique",
-    location: "",
+    location: "5",
     description:
       "La réflexologie est basée sur l'idée que le corps est interconnecté et que le déséquilibre dans une partie peut affecter l'ensemble. Elle vise non seulement à traiter les symptômes spécifiques, mais aussi à promouvoir l'équilibre global et le bien-être général.",
-    icon: React.createElement(LuTrees, {}),
+    icon: React.createElement(LuTrees),
     date: "",
   },
   {
     title: "Séance typique",
-    location: "",
+    location: "6",
     description:
       "Une séance commence généralement par une discussion avec le client pour comprendre ses besoins ou problèmes de santé. Le réflexologue examinera ensuite les pieds avant de commencer le massage. La session se termine généralement par un moment de relaxation, pendant lequel le client peut ressentir une sensation de légèreté ou de tranquillité.",
-    icon: React.createElement(LuTrees, {}),
+    icon: React.createElement(LuTrees),
     date: "",
   },
   {
     title: "Contre-indications",
-    location: "",
+    location: "7",
     description:
       "Bien que la réflexologie soit généralement considérée comme sûre, elle peut ne pas être adaptée à tous. Les personnes ayant des blessures aux pieds, certaines affections cutanées, ou des conditions médicales spécifiques devraient consulter un professionnel de santé avant de commencer le traitement.",
-    icon: React.createElement(LuTrees, {}),
+    icon: React.createElement(LuTrees),
     date: "",
   },
   {
     title: "En Conclusion",
-    location: "",
+    location: "8",
     description:
       "La réflexologie plantaire est une pratique ancienne qui offre une approche alternative ou complémentaire à la santé et au bien-être. Elle vise à équilibrer l'énergie du corps et à favoriser l'auto-guérison à travers la stimulation des points réflexes sur les pieds.",
-    icon: React.createElement(LuTrees, {}),
+    icon: React.createElement(LuTrees),
     date: "",
   },
 ] as const;

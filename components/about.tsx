@@ -45,30 +45,25 @@ export default function About() {
       </h1>
       <br />
       <p className="mb-3">
-        <ul>
-          <span className="font-bold">Détente Profonde</span> L'un des avantages
-          les plus immédiats est la relaxation. Beaucoup de personnes se sentent
-          détendues et apaisées après une séance.
-          <br />
-          <span className="font-bold">
-            Amélioration de la circulation :
-          </span>{" "}
-          Elle peut aider à améliorer la circulation sanguine, ce qui est
-          bénéfique pour l'ensemble de l'organisme.
-          <br />
-          <span className="font-bold">Équilibre du système nerveux :</span> En
-          stimulant les terminaisons nerveuses, la réflexologie peut contribuer
-          à équilibrer le système nerveux.
-          <br />
-          <span className="font-bold">Soutien à la détoxification :</span> Elle
-          aide le corps à éliminer les toxines et renforce le système
-          immunitaire.
-          <br />
-          <span className="font-bold">Soulagement de la douleur :</span> De
-          nombreuses personnes trouvent un soulagement de diverses douleurs,
-          notamment celles liées au stress et à la tension.
-          <br />
-        </ul>
+        <span className="font-bold">Détente Profonde</span> L'un des avantages
+        les plus immédiats est la relaxation. Beaucoup de personnes se sentent
+        détendues et apaisées après une séance.
+        <br />
+        <span className="font-bold">Amélioration de la circulation :</span> Elle
+        peut aider à améliorer la circulation sanguine, ce qui est bénéfique
+        pour l'ensemble de l'organisme.
+        <br />
+        <span className="font-bold">Équilibre du système nerveux :</span> En
+        stimulant les terminaisons nerveuses, la réflexologie peut contribuer à
+        équilibrer le système nerveux.
+        <br />
+        <span className="font-bold">Soutien à la détoxification :</span> Elle
+        aide le corps à éliminer les toxines et renforce le système immunitaire.
+        <br />
+        <span className="font-bold">Soulagement de la douleur :</span> De
+        nombreuses personnes trouvent un soulagement de diverses douleurs,
+        notamment celles liées au stress et à la tension.
+        <br />
       </p>
       <br />
       <h1 className="font-bold">Pour Qui ?</h1>

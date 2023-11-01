@@ -99,7 +99,7 @@ export default function Contact() {
         <SubmitBtn />
         <br />
         <br />
-        <p className="font-thin font-light text-gray-700 -mt-6 dark:text-white/80">
+        <p className="font-thin text-gray-700 -mt-6 dark:text-white/80">
           Pour toutes demande de rendez-vous, veuillez attendre la confirmation
           définitive de ma part.
         </p>

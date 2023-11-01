@@ -10,8 +10,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Neel | Personal Portfolio",
-  description: "Neel is a blockchain developer with 2 years of experience.",
+  title: "Réflexologie | Chloé Le Ralle",
+  description: "Chloé est une reflexologue à Carnac, dans le Morbihan.",
 };
 
 export default function RootLayout({
