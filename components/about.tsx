@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Réflexologie");
 
   return (
     <motion.section
@@ -17,72 +17,77 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>
+        La Réflexologie Plantaire : Une Thérapie Ancienne pour le Bien-être
+        Moderne
+      </SectionHeading>
       <p className="mb-3">
-        After some years working in many differents places by occupying{" "}
-        <span className="font-medium">various positions</span>, I decided to
-        pursue my passion for programming. I enrolled in a coding journey two
-        years ago and started learn <br />{" "}
-        <span className="font-medium underline">
-          full-stack web and blockchain oriented development.
-        </span>{" "}
-        <br />I started to learn by myself basic of web development and
-        programing with <span className="italic">Javascript and Solidity</span>{" "}
-        and then I joined a coding school a year ago to switch my career and
-        work as a developer.
+        La réflexologie plantaire est une pratique thérapeutique qui repose sur
+        la stimulation de points précis situés sur les pieds. Cette méthode
+        ancienne trouve ses racines dans diverses cultures, de l'Égypte antique
+        à la Chine, et est utilisée depuis des millénaires pour promouvoir le
+        bien-être général.
       </p>
+      <br />
+      <h1 className="font-bold">Principes de la Réflexologie</h1>
+      <br />
       <p className="mb-3">
-        <span className="italic">My favorite part of programming</span> is the
-        creative aspect of designing projects and think on how to create
-        valuable protocols and applications for{" "}
-        <span className="underline">real world usage</span>. I{" "}
-        <span className="underline">love</span> the feeling of progression and
-        satisfaction when a project grows and becomes a reality.
+        Chaque point sur le pied correspond à un organe ou à une partie
+        spécifique du corps. En appliquant une pression sur ces zones, le
+        réflexologue peut influencer l'organe ou la région associée. Cela se
+        base sur l'idée que le corps est interconnecté par un réseau d'énergies
+        et que la stimulation de ces points peut aider à rétablir l'équilibre et
+        à favoriser la guérison.
       </p>
+      <br />
+      <h1 className="font-bold">
+        Quelques Bienfaits de la Réflexologie Plantaire
+      </h1>
+      <br />
       <p className="mb-3">
-        My current stack is composed of <br />{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, MongoDB and Thirdweb, Alchemy, Web3.js,
-          Ethers.js
-        </span>
-        . I am also familiar with TypeScript and Solidity which is the
-        programming language to develop smart contracts on blockchain networks
-        (EVM). Smart contracts revolutionize business logic and models by
-        automating and enforcing predefined agreements on the blockchain,
-        ensuring transparency, immutability, and reduced intermediation costs,
-        thus fostering trust and efficiency in transactions.
+        <ul>
+          <span className="font-bold">Détente Profonde</span> L'un des avantages
+          les plus immédiats est la relaxation. Beaucoup de personnes se sentent
+          détendues et apaisées après une séance.
+          <br />
+          <span className="font-bold">
+            Amélioration de la circulation :
+          </span>{" "}
+          Elle peut aider à améliorer la circulation sanguine, ce qui est
+          bénéfique pour l'ensemble de l'organisme.
+          <br />
+          <span className="font-bold">Équilibre du système nerveux :</span> En
+          stimulant les terminaisons nerveuses, la réflexologie peut contribuer
+          à équilibrer le système nerveux.
+          <br />
+          <span className="font-bold">Soutien à la détoxification :</span> Elle
+          aide le corps à éliminer les toxines et renforce le système
+          immunitaire.
+          <br />
+          <span className="font-bold">Soulagement de la douleur :</span> De
+          nombreuses personnes trouvent un soulagement de diverses douleurs,
+          notamment celles liées au stress et à la tension.
+          <br />
+        </ul>
       </p>
+      <br />
+      <h1 className="font-bold">Pour Qui ?</h1>
+      <br />
       <p className="mb-3">
-        <br />I am always looking to learn new technologies, framworks and
-        libraries especialy in the blockchain ecosystem. Learning decentralized
-        economics and finance may be mandatory to understand how crypto currency
-        ecosystem work and it is a real passion for me.
+        La réflexologie plantaire est adaptée à presque tout le monde, des bébés
+        aux personnes âgées. Que vous cherchiez à soulager une douleur
+        spécifique, à gérer le stress ou simplement à vous détendre, cette
+        thérapie peut être une excellente option.
       </p>
+      <br />
+      <h1 className="font-bold">Conclusion</h1>
+      <br />
       <p className="mb-3">
-        I am currently focusing on a{" "}
-        <span className="font-medium">decentralized Stablecoin protocole</span>,
-        which is a cryptocurrency designed to minimize the price volatility
-        because is price is pegged to another stable asset like the U.S. dollar
-        or gold. This way i keep learning more complexe Solidity like testing
-        and auditing smart contracts.
-      </p>
-      <p>
-        I also enjoy{" "}
-        <span className="font-medium">
-          learning new programming things like video game development with
-          Unity, 3D modeling with Blender
-        </span>
-        . I am currently learning about{" "}
-        <span className="font-medium">
-          blockchain integration in video game
-        </span>{" "}
-        by creating a <span className="font-medium">In-Game Economy</span> ruled
-        by smart contracts and based on Ethereum Network.
-      </p>
-      <p className="mt-3">
-        <span className="italic">When I'm not coding</span>, I enjoy surfing and
-        sports, watching movies, playing music and painting. I also love
-        travelling and discover new places and cultures.
+        La réflexologie plantaire est plus qu'un simple massage des pieds. C'est
+        une thérapie holistique qui vise à harmoniser le corps, l'esprit et
+        l'âme. Si vous êtes à la recherche d'une méthode naturelle pour
+        améliorer votre bien-être général, n'hésitez pas à explorer cette
+        pratique ancienne adaptée aux besoins modernes.
       </p>
     </motion.section>
   );

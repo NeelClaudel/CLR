@@ -29,14 +29,15 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>Contactez moi</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+        Vous Pouvez me contacter soit par Téléphone au 06.07.08.09.10 ou par
+        mail{" "}
         <a className="underline" href="mailto:neel.claudel@gmail.com">
           neel.claudel@gmail.com
         </a>{" "}
-        or through this form.
+        en completant le formulaire ci-dessous{" "}
       </p>
 
       <form
@@ -58,7 +59,7 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder="Votre email"
         />
         <br />
         <input
@@ -67,9 +68,10 @@ export default function Contact() {
           type="text"
           required
           maxLength={500}
-          placeholder="Your Full Name"
+          placeholder="Votre Nom Complet"
         />
         <br />
+        {/* 
         <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="company"
@@ -77,13 +79,14 @@ export default function Contact() {
           placeholder="Your Company Name"
         />
         <br />
+        */}
         <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="phone"
           type="text"
           required
           maxLength={500}
-          placeholder="Your Phone Number"
+          placeholder="Votre Numéro de Téléphone"
         />
         <br />
         <textarea
@@ -94,6 +97,12 @@ export default function Contact() {
           maxLength={5000}
         />
         <SubmitBtn />
+        <br />
+        <br />
+        <p className="font-thin font-light text-gray-700 -mt-6 dark:text-white/80">
+          Pour toutes demande de rendez-vous, veuillez attendre la confirmation
+          définitive de ma part.
+        </p>
       </form>
     </motion.section>
   );

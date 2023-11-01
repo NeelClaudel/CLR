@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaFacebookF, FaGithubSquare, FaInstagram } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1698144238229-5f91863d8828?auto=format&fit=crop&q=80&w=2080&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // https://unsplash.com/fr/photos/fzir3jtFuTQ // https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100
+              src="https://images.unsplash.com/photo-1698795224798-41124b59dbd5?auto=format&fit=crop&q=80&w=2080&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // https://unsplash.com/fr/photos/fzir3jtFuTQ // https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100
               alt="Neel portrait"
               width="192"
               height="192"
@@ -62,15 +62,29 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Neel.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building{" "}
-        <span className="italic">sites, apps & decentralized application</span>.
-        My focus is <span className="underline">React Next.js</span> and{" "}
-        <span className="underline">Solidity</span>.
+        Portée par une passion profonde pour le bien-être holistique et dotée
+        d'une expertise reconnue en réflexologie,
+        <br />
+        <span className="font-bold">Chloé Le Ralle</span>
+        <br /> s'engage à accompagner les autres dans leur quête <br />
+        <span className="font-bold">d'équilibre et d'harmonie</span>
+        <br />
       </motion.h1>
-
+      <motion.div
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-1xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        C'est à travers des techniques ancestrales de{" "}
+        <span className="italic">de stimulation des points réflexes</span>.
+        <br /> Sa pratique, ancrée dans la compréhension des interconnections du
+        corps, aspire à{" "}
+        <span className="underline">favoriser la santé et la sérénité</span>.
+        <br />
+        Chaque rencontre avec Moi est une étape vers une prise de conscience
+        enrichissante et un bien-être renforcé. <br />
+        <span className="underline">Namaste</span>.
+      </motion.div>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
@@ -87,22 +101,22 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contactez Moi{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV-NC.pdf"
+          href="/Brochure.pdf"
           download
         >
-          Download My CV{" "}
+          Téléchargez Ma Brochure{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/neel-claudel-902998297/"
+          href="https://www.likened.com/"
           target="_blank"
         >
           <BsLinkedin />
@@ -110,10 +124,18 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/NeelClaudel"
+          href="https://www.facebook.com/"
           target="_blank"
         >
-          <FaGithubSquare />
+          <FaFacebookF />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.instagram.com/"
+          target="_blank"
+        >
+          <FaInstagram />
         </a>
       </motion.div>
     </section>

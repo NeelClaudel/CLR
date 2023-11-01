@@ -21,7 +21,7 @@ const fadeInAnimationVariants = {
 };
 
 export default function Skills() {
-  const { ref } = useSectionInView("Skills");
+  const { ref } = useSectionInView("Prestations");
 
   return (
     <section
@@ -29,7 +29,10 @@ export default function Skills() {
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <SectionHeading>Which Languages I'm learning</SectionHeading>
+      <SectionHeading>Trarifications</SectionHeading>
+      <p className="mt-4 text-gray-700 dark:text-white/70">
+        Pour une séance de réflexologie plantaire
+      </p>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Languages.map((languages, index) => (
           <motion.li
@@ -48,7 +51,11 @@ export default function Skills() {
         ))}
       </ul>
       <br />
-      <SectionHeading>Some Technologies I'm using</SectionHeading>
+
+      <SectionHeading>Pour la Détente</SectionHeading>
+      <p className="mt-4 text-gray-700 dark:text-white/70">
+        Pour une séance de détente
+      </p>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Technologies.map((techs, index) => (
           <motion.li
@@ -66,8 +73,12 @@ export default function Skills() {
           </motion.li>
         ))}
       </ul>
+
       <br />
-      <SectionHeading>Framworks and Libraries</SectionHeading>
+      <SectionHeading>Mutuels et Prise en Charges</SectionHeading>
+      <p className="mt-4 text-gray-700 dark:text-white/70">
+        Listes des mutuels et prise en charges sujet à remboursement et aides
+      </p>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Framworks.map((framworks, index) => (
           <motion.li
@@ -85,7 +96,9 @@ export default function Skills() {
           </motion.li>
         ))}
       </ul>
+      {/*
       <br />
+
       <SectionHeading>Blockchain Side Protocols and Tools</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Protocols.map((protocols, index) => (
@@ -104,6 +117,7 @@ export default function Skills() {
           </motion.li>
         ))}
       </ul>
+      */}
     </section>
   );
 }
